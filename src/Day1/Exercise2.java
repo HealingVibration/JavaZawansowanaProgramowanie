@@ -20,22 +20,21 @@ public class Exercise2 {
         map.put("PHP", 0);
         wypisz(map);
     }
-    public static void wypisz (Map<String, Integer> map){
+
+    public static void wypisz(Map<String, Integer> map) {
         Integer i = 0;
-        for(String key:map.keySet()) {
+        for (String key : map.keySet()) {
             System.out.println("klucz: " + key + ", Wartość: " + map.get(key));
             i++;
 
 
-        if(map.size() > i ){
-            System.out.println(",");
+            if (map.size() > i) {
+                System.out.println(",");
 
-        }else{
-            System.out.println(".");
+            } else {
+                System.out.println(".");
+            }
         }
-        }
-
-
 
     }
 
