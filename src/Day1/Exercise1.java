@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Scanner;
 
 
-public class Main {
+public class Exercise1 {
     public static List<String> sortZA(List<String> list) {
         list.sort((s, secoundString) -> s.toLowerCase().compareTo(secoundString.toLowerCase())*(-1));
 
